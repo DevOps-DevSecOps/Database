@@ -1,1 +1,10 @@
-
+                    Database
+             [Master = read / write]  
+                        |
+                        |
+          -----------------------------
+          |                           |
+          |                           |
+          |                           |
+      Database                    Database
+   [Slave = read]              [Slave = read]
