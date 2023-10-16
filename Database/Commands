@@ -1,0 +1,8 @@
+[MySQL]
+● Connecting to the MySQL Server
+$ mysql -h IP_ADDRESS -P PORT_NO -u USER_NAME -p
+  mysql -h 127.0.0.1 -P 3306 -u root -p
+● Executing the .sql Script
+$ mysql -h IP_ADDRESS -P PORT_NO -u USER_NAME -p < FILE_NAME.sql
+$ mysql -h IP_ADDRESS -P PORT_NO -u USER_NAME -p < /FOLDER_NAME/FILE_NAME.sql
+  mysql -h 127.0.0.1 -P 3306 -u root -p < /tmp/script.sql
